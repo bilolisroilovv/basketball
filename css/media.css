@@ -1,0 +1,235 @@
+/*----- 4K Monitors -----*/
+@media screen and (max-width: 2560px) {
+	
+}
+
+/*----- Laptop L -----*/
+@media screen and (max-width: 1440px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+
+/*----- Laptop -----*/
+@media screen and (max-width: 1024px) {
+	header {
+		height: 100vh;
+	}
+	.main-ul li a {
+		font-size: 15px;
+		padding: 2em 0rem 1.5rem 0rem;
+	}
+	.mydrop-menu li a {
+		padding: 10px 25px;
+	}
+	.ball-img2  {
+		top: 80%;
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+	
+}
+
+
+/*----- Tablet -----*/
+@media screen and (max-width: 768px) {
+	.main-ul {
+		flex-direction: column;
+		display: flex;
+		padding: .5rem 5rem 0 1rem;
+	}
+
+	.main-ul li a {
+		padding: 0;
+	}
+	#menu {
+		flex-direction: column;
+		height: 100%;
+	}
+	.responsive-nav {
+		display: flex;
+	}
+	.notresponsive-nav {
+		display: none;
+	}
+	.touch-side-swipe {
+		background: #fff!important;
+	}
+	.link {
+		color: #222!important;
+	}
+	.top-div {
+		display: flex;
+		justify-content: center;
+	}
+	.header-img {
+		max-width: 100%;
+		display: none;
+	}
+	.sec-header-img {
+		display: block;
+	}
+	.sec-header-part {
+		display: none!important;
+	}
+	.main-ul li {
+		padding: 0.5rem 0;
+	}
+	.mydropdown-menu {
+		color: #333!important;
+	}
+	.main-ul li a {
+		color: #333;
+	}
+	.res-p {
+		padding: 15px;
+		border-right: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	.myswiper1 {
+		padding-bottom: 15px!important;
+	}
+	.big-card-body {
+		padding-bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.mycard-imgs {
+		max-height: 165px;
+		min-height: 165px;
+	}
+	.mycard-title2 {
+		padding-top: 20px;
+	}
+	.page-header {
+		height: 125px;
+	}
+	.res-none {
+		display: none;
+	}
+	.res-block {
+		display: block;
+	}
+	.res-textcenter {
+		text-align: center!important;
+	}
+	.footer-ul {
+		padding-left: 2rem;
+		padding-bottom: 2rem;
+	}
+	.about-us h2 {
+		font-size: 25px;
+	}
+	.about-us iframe {
+		height: 200px;
+	}
+	.divTableCell {
+		font-size: 14px!important;
+	}
+	.fw-400 h4 {
+		font-size: 18px!important;
+	}
+	.calendar_3x3 p {
+		font-size: 16px;
+		font-weight: 500!important;
+	}
+}
+
+
+/*----- Mobile L -----*/
+@media screen and (max-width: 425px) {
+	.mycard {
+		max-height: 420px;
+		min-height: 420px;
+	}
+	.pages-nav li a {
+		font-size: 13px;
+	}
+}
+
+/*----- Mobile M -----*/
+@media screen and (max-width: 375px) {
+	
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 36px!important;
+	}
+}
+
+/*----- Mobile S -----*/
+@media screen and (max-width: 320px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------ MOBILE-FIRST Method ------------------*/
+
+/*----- Mobile S -----*/
+@media screen and (min-width: 320px) {
+	
+}
+
+
+/*----- Mobile M -----*/
+@media screen and (min-width: 375px) {
+	
+}
+
+
+/*----- Mobile L -----*/
+@media screen and (min-width: 425px) {
+	
+}
+
+
+/*----- Tablet -----*/
+@media screen and (min-width: 600px) {
+	
+}
+
+@media screen and (min-width: 768px) {
+	
+}
+
+
+/*----- Laptop -----*/
+@media screen and (min-width: 850px) {
+	
+}
+
+@media screen and (min-width: 1024px) {
+	
+}
+
+
+/*----- Laptop L -----*/
+@media screen and (min-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 1440px) {
+	
+}
+
+/*----- 4K Monitors -----*/
+@media screen and (min-width: 2560px) {
+	
+}

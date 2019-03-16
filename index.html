@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Basketball</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/swiper-slider/swiper.min.css">
+	<link rel="stylesheet" href="libs/touch-sideswipe-master/touch-sideswipe.min.css">
+	<link rel="stylesheet" href="libs/unite-gallery/alexis.css">
+	<link rel="stylesheet" href="libs/unite-gallery/ug-theme-default.css">
+	<link rel="stylesheet" href="libs/unite-gallery/unite-gallery.css">
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+</head>
+<body>
+
+	<div class="preloader" id="page-preloader">
+		<div class="loader">
+			<img src="images/ball.png" class="img-width" alt="">
+			<h2 class="text-center pt-3">Загрузка...</h2>
+		</div>
+
+	</div>
+
+	<header>
+
+		<nav class="main-nav notresponsive-nav animated">
+			<div class="container">
+
+
+				<div id="menu">
+					<a href="#" id="logo">
+						<img src="images/logo.png" alt="logo" class="img-width main-logo logo-img">
+					</a>
+					
+					<ul class="main-ul">
+						<li><a href="#section01" class="link">Главная</a></li>
+						<li><a href="#section02" class="link">О нас</a></li>
+						<li class="mydrop-open position-relative">
+							<a href="#section04" class="link dropdown-toggle">Баскетбол 5x5</a>
+							<ul class="mydrop-menu animated myFadeInDown">
+								<li class="mysubmenu-open2">
+									<a href="#" class="dropdown-toggle">Кубок</a>
+									<ul class="mysubmenu2 animated myFadeInDown">
+										<li><a href="#">Мужчины</a></li>
+										<li><a href="#">Женщины</a></li>
+									</ul>
+								</li>
+								<li class="mysubmenu-open">
+									<a href="#" class="dropdown-toggle">Календарь игр</a>
+									<ul class="mysubmenu animated myFadeInDown">
+										<li><a href="#">Мужчины</a></li>
+										<li><a href="#">Женщины</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Результаты сезона</a></li>
+							</ul>
+						</li>
+						<li class="mydrop-open2 position-relative">
+							<a href="#section00" class="link dropdown-toggle">Баскетбол 3х3</a>
+							<ul class="mydrop-menu animated myFadeInDown">
+								<li><a href="#">Ссылка 1</a></li>
+								<li><a href="#">Ссылка 2</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#section00" class="link">Новости</a></li>
+						<li><a href="#section00" class="link">Медиа</a></li>
+						<li><a href="#section00" class="link">Библиотека</a></li>
+						<li><a href="#section00" class="link">Контакты</a></li>
+						
+						<!-- Modal -->
+					</ul>
+				</div> <!-- #menu -->
+				
+
+			</div> <!-- container -->
+
+
+		</nav>
+
+
+
+		<div class="top-div animated align-items-center">
+			<a href="#">
+				<img src="images/logo.png" class="main-logo responsive-logo img-width logo-img" alt="logo">
+			</a>
+		</div>
+
+		<!-- MOBILE MENU -->
+
+		<nav id="touchSideSwipe" class="touch-side-swipe responsive-nav">
+
+			<div class="container p-0">
+				<div id="menu">
+					<div class="logo-div text-center">
+						<img src="images/logo.png" alt="logo" class="responsive-nav-logo">
+					</div>
+					
+
+					<ul class="main-ul">
+						<li class="animated myFadeInDown"><a href="#section01" class="link">Главная</a></li>
+						<li class="animated myFadeInDown"><a href="#section02" class="link">О нас</a></li>
+
+						<li class="animated myFadeInDown">
+							<a href="#" class="dropdown-toggle mydropdown">
+								Баскетбол 5x5
+							</a>
+							<ul class="mydropdown-open">
+								<li>
+									<a href="#" class="dropdown-toggle">Кубок</a>
+									<ul class="animated myFadeInDown">
+										<li><a href="#">Мужчины</a></li>
+										<li><a href="#">Женщины</a></li>
+									</ul>
+								</li>
+								<li >
+									<a href="#" class="dropdown-toggle">Календарь игр</a>
+									<ul class="animated myFadeInDown">
+										<li><a href="#">Мужчины</a></li>
+										<li><a href="#">Женщины</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Результаты сезона</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#section00" class="link dropdown-toggle" data-toggle="dropdown">Баскетбол 3х3</a>
+							<ul class="dropdown-menu mydrop-menu animated myFadeInDown">
+								<li><a href="#">Ссылка 1</a></li>
+								<li><a href="#">Ссылка 2</a></li>
+							</ul>
+
+						</li>
+						<li><a href="#section00" class="link">Новости</a></li>
+						<li><a href="#section00" class="link">Медиа</a></li>
+						<li><a href="#section00" class="link">Библиотека</a></li>
+						<li><a href="#section00" class="link">Контакты</a></li>
+						
+						<!-- Modal -->
+					</ul>
+				</div>
+
+			</div>
+
+		</nav> <!-- touch-side-swipe responsive-nav -->
+
+		
+		<div class="container h-100 text-white">
+			
+			<div class="d-flex w-100 h-100 align-items-center">
+				<h1 class="">Федерация баскетбола <br>
+				Самаркандской области</h1>
+			</div>
+
+		</div>
+
+		<img src="images/ball.png" class="ball-img " alt="">
+		<a href="#wrapper" class="anim"><img src="images/down-arrow.gif" class="down-arrow" alt=""></a>
+	</header> <!-- header -->
+
+
+	<div class="wrapper" id="wrapper">
+		<section class="mysection01 position-relative">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="d-flex justify-content-between">
+							<h2 class="myh2">Новости</h2>
+							<a href="#" class="view-all">Смотреть все</a>
+						</div>
+						<hr class="myhr">
+					</div>
+					
+
+					<div class="col-md-12 slider_el pt-3">
+						<ul>
+							<li class="float-right lw_next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+							<li class="float-right lw_prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+						<!-- Swiper -->
+						<div class="swiper-container myswiper1">
+							<div class="swiper-wrapper pt-3">
+								<div class="swiper-slide myslide1">
+									<div class="mycard">
+										
+										<div class="mycard-imgs mycard-img1">
+											
+										</div>
+
+										<div class="res-p">	
+
+											<div class="mycard-title">
+												<a href="#" title="Состоялся чемпионат Самаркандской области по баскетболу.">
+													Состоялся чемпионат Самаркандской области по баскетболу.
+												</a>
+
+											</div>
+
+											<div class="mycard-text">
+												Команда сборной г. Самарканда юношей 2003 г.р. и моложе по руководством старшего тренера Самедова Тохир Вагифовича заняла 1 место. Все игроки были награждены дипломами, медалями и ценными призами.
+											</div>
+
+											<p class="pt-5"><i class="fa fa-calendar pr-2"></i>06.02.2019</p>
+
+										</div>
+
+										
+
+									</div> <!-- mycard -->
+								</div> <!-- myslide1 -->
+
+								<div class="swiper-slide myslide1">
+									<div class="mycard">
+										
+										<div class="mycard-imgs mycard-img2">
+											
+										</div>
+
+										<div class="res-p">	
+
+											<div class="mycard-title">
+												<a href="#" title="Состоялся чемпионат Самаркандской области по баскетболу.">
+													Состоялся чемпионат Самаркандской области по баскетболу.
+												</a>
+
+											</div>
+
+											<div class="mycard-text">
+												Команда сборной г. Самарканда юношей 2003 г.р. и моложе по руководством старшего тренера Самедова Тохир Вагифовича заняла 1 место. Все игроки были награждены дипломами, медалями и ценными призами.
+											</div>
+
+											<p class="pt-5"><i class="fa fa-calendar pr-2"></i>06.02.2019</p>
+
+										</div>
+
+									</div> <!-- mycard -->
+								</div> <!-- myslide1 -->
+
+
+
+								<div class="swiper-slide myslide1">
+									<div class="mycard">
+										
+										<div class="mycard-imgs mycard-img3">
+											
+										</div>
+
+										<div class="res-p">	
+
+											<div class="mycard-title">
+												<a href="#" title="Состоялся чемпионат Самаркандской области по баскетболу.">
+													Состоялся чемпионат Самаркандской области по баскетболу.
+												</a>
+
+											</div>
+
+											<div class="mycard-text">
+												Команда сборной г. Самарканда юношей 2003 г.р. и моложе по руководством старшего тренера Самедова Тохир Вагифовича заняла 1 место. Все игроки были награждены дипломами, медалями и ценными призами.
+											</div>
+
+											<p class="pt-5"><i class="fa fa-calendar pr-2"></i>06.02.2019</p>
+
+										</div>
+
+									</div> <!-- mycard -->
+								</div> <!-- myslide1 -->
+
+								<div class="swiper-slide myslide1">
+									<div class="mycard">
+										
+										<div class="mycard-imgs mycard-img1">
+											
+										</div>
+
+										<div class="res-p">	
+
+											<div class="mycard-title">
+												<a href="#" title="Состоялся чемпионат Самаркандской области по баскетболу.">
+													Состоялся чемпионат Самаркандской области по баскетболу.
+												</a>
+
+											</div>
+
+											<div class="mycard-text">
+												Команда сборной г. Самарканда юношей 2003 г.р. и моложе по руководством старшего тренера Самедова Тохир Вагифовича заняла 1 место. Все игроки были награждены дипломами, медалями и ценными призами.
+											</div>
+
+											<p class="pt-5"><i class="fa fa-calendar pr-2"></i>06.02.2019</p>
+
+										</div>
+
+									</div> <!-- mycard -->
+								</div> <!-- myslide1 -->
+
+								<div class="swiper-slide myslide1">
+									<div class="mycard">
+										
+										<div class="mycard-imgs mycard-img2">
+											
+										</div>
+
+										<div class="res-p">	
+
+											<div class="mycard-title">
+												<a href="#" title="Состоялся чемпионат Самаркандской области по баскетболу.">
+													Состоялся чемпионат Самаркандской области по баскетболу.
+												</a>
+
+											</div>
+
+											<div class="mycard-text">
+												Команда сборной г. Самарканда юношей 2003 г.р. и моложе по руководством старшего тренера Самедова Тохир Вагифовича заняла 1 место. Все игроки были награждены дипломами, медалями и ценными призами.
+											</div>
+
+											<p class="pt-5"><i class="fa fa-calendar pr-2"></i>06.02.2019</p>
+
+										</div>
+									</div> <!-- mycard -->
+								</div> <!-- myslide1 -->
+								
+
+
+							</div> <!-- swiper-wrapper -->
+						</div> <!-- swiper-container -->
+					</div> <!-- col-md-12 -->
+
+					
+
+				</div> <!-- row -->
+				
+
+
+			</div> <!-- container -->
+
+			<img src="images/ball.png" class="ball-img2 animated bounceBig" alt="">
+		</section> <!-- mysection01 -->
+
+
+
+
+		<section class="mysection02">
+			
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-7">
+						<p>
+							Баскетбол (англ. basket — корзина, ball — мяч) — спортивная командная игра с мячом.
+						</p>
+						<img src="images/player.png" class="img-width res-block" alt="">
+						<p>
+							В баскетбол играют две команды, каждая из которых состоит из пяти полевых игроков (всего в каждой команде по 12 человек, замены не ограничены). Цель каждой команды — забросить руками мяч в кольцо с сеткой (корзину) соперника и помешать другой команде завладеть мячом и забросить его в свою корзину. Корзина находится на высоте 3,05 м от пола (10 футов). 
+						</p>
+						<p class="mb-0">За мяч, заброшенный с ближней и средней дистанций, засчитывается два очка, с дальней (из-за 3-х очковой линии) — три очка; штрафной бросок оценивается в одно очко. Стандартный размер баскетбольной площадки — 28 м в длину и 15 м — в ширину. Баскетбол — один из самых популярных видов спорта в мире.
+						</p>
+					</div> <!-- col-md-7 -->
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<img src="images/player.png" class="img-width res-none" alt="">
+					</div> <!-- col-md-5 -->
+					<div class="col-md-1"></div>
+
+				</div> <!-- row -->
+			</div> <!-- container -->
+
+		</section> <!-- mysection02 -->
+
+		<section class="mysection03 position-relative">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="d-flex justify-content-between">
+							<h2 class="myh2">Наша команда</h2>
+						</div>
+						<hr class="myhr">
+					</div>
+					
+
+					<div class="col-md-12 slider_el pt-3">
+						<ul>
+							<li class="float-right my_next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+							<li class="float-right my_prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+						<!-- Swiper -->
+						<div class="swiper-container myswiper2">
+							<div class="swiper-wrapper pt-3">
+
+
+								<div class="swiper-slide myslide2">
+									
+									<div class="player-card">
+										<div class="player-imgs player-img1"></div>
+										<div class="player-info">
+											<h5 class="text-white mb-0">
+												Тони Крокер 5
+											</h5>
+											<h5 class="text-white thin">Защитник</h5>
+										</div>
+									</div>
+
+
+								</div> <!-- myslide1 -->
+								<div class="swiper-slide myslide2">
+									
+									<div class="player-card">
+										<div class="player-imgs player-img2"></div>
+										<div class="player-info">
+											<h5 class="text-white mb-0">
+												Ди Бост 3
+											</h5>
+											<h5 class="text-white thin">Защитник</h5>
+										</div>
+									</div>
+
+
+								</div> <!-- myslide1 -->
+
+
+								<div class="swiper-slide myslide2">
+									
+									<div class="player-card">
+										<div class="player-imgs player-img3"></div>
+										<div class="player-info">
+											<h5 class="text-white mb-0">
+												Энтони Грил 13*
+											</h5>
+											<h5 class="text-white thin">Форвард</h5>
+										</div>
+									</div>
+
+
+								</div> <!-- myslide1 -->
+
+								<div class="swiper-slide myslide2">
+									
+									<div class="player-card">
+										<div class="player-imgs player-img4"></div>
+										<div class="player-info">
+											<h5 class="text-white mb-0">
+												Чарльз Дженкинс 22
+											</h5>
+											<h5 class="text-white thin">Защитник</h5>
+										</div>
+									</div>
+
+
+								</div> <!-- myslide1 -->
+
+								<div class="swiper-slide myslide2">
+									
+									<div class="player-card">
+										<div class="player-imgs player-img5"></div>
+										<div class="player-info">
+											<h5 class="text-white mb-0">
+												Тони Крокер 5
+											</h5>
+											<h5 class="text-white thin">Защитник</h5>
+										</div>
+									</div>
+
+
+								</div> <!-- myslide1 -->
+
+
+								
+
+
+							</div> <!-- swiper-wrapper -->
+						</div> <!-- swiper-container -->
+					</div> <!-- col-md-12 -->
+
+					
+
+				</div> <!-- row -->
+				
+
+
+			</div> <!-- container -->
+
+			<img src="images/ball.png" class="ball-img3" alt="">
+
+		</section> <!-- mysection03 -->
+
+
+
+		<section class="mysection04 position-relative">
+			
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						<div class="d-flex justify-content-between">
+							<h2 class="myh2">Фотогалерея</h2>
+							<a href="#" class="view-all">Смотреть все</a>
+						</div>
+						<hr class="myhr">
+					</div>
+					
+					<div class="col-md-12 py-5 gallery-sec">
+						<a href="#">Кубок Кондрашина и Белова, Самарканд 2018</a>
+						<div id="gallery" class="zindex-1 pt-3">
+
+							<img class="gallery-img" alt="Кубок Кондрашина и Белова, Самарканд 2018" src="images/myslide1.JPG"
+							data-image="images/myslide1.JPG"
+							data-description="Кубок Кондрашина и Белова, Самарканд 2018">
+
+
+							<img class="gallery-img" alt="Кубок Кондрашина и Белова, Самарканд 2018" src="images/myslide2.JPG"
+							data-image="images/myslide2.JPG"
+							data-description="Кубок Кондрашина и Белова, Самарканд 2018">
+
+
+							<img class="gallery-img" alt="Кубок Кондрашина и Белова, Самарканд 2018" src="images/myslide3.JPG"
+							data-image="images/myslide3.JPG"
+							data-description="Кубок Кондрашина и Белова, Самарканд 2018">
+							
+
+
+
+
+
+
+						</div> <!-- #gallery -->
+					</div> <!-- col-md-12 -->
+
+					<div class="col-md-12 py-4 pb-5 gallery-sec">
+						<a href="#">Фестиваль в Узбекистане по мини-баскетболу 2018</a>
+						<div id="gallery2" class="zindex-1 pt-3">
+
+							<img class="gallery-img" alt="Фестиваль в Узбекистане по мини-баскетболу 2018" src="images/myslide1.JPG"
+							data-image="images/myslide1.JPG"
+							data-description="Фестиваль в Узбекистане по мини-баскетболу 2018">
+
+
+							<img class="gallery-img" alt="Фестиваль в Узбекистане по мини-баскетболу 2018" src="images/myslide2.JPG"
+							data-image="images/myslide2.JPG"
+							data-description="Фестиваль в Узбекистане по мини-баскетболу 2018">
+
+
+							<img class="gallery-img" alt="Фестиваль в Узбекистане по мини-баскетболу 2018" src="images/myslide3.JPG"
+							data-image="images/myslide3.JPG"
+							data-description="Фестиваль в Узбекистане по мини-баскетболу 2018">
+							
+
+
+
+
+
+
+						</div> <!-- #gallery -->
+					</div> <!-- col-md-12 -->
+
+				</div> <!-- row -->
+			</div> <!-- container -->
+			<img src="images/ball.png" class="ball-img4" alt="">
+		</section> <!-- mysection04 -->
+
+
+
+
+
+
+
+
+
+
+
+	</div> <!-- wrapper -->
+
+	
+
+
+	<footer>
+
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-2 col-6">
+					<ul class="footer-ul">
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">О нас</a></li>
+					</ul> <!-- footer-ul -->
+				</div> <!-- col-md-2 -->
+
+				<div class="col-md-2 col-6">
+					<ul class="footer-ul">
+						<li><a href="#">Баскетбол 5x5</a></li>
+						<li><a href="#">Баскетбол 3x3</a></li>
+					</ul> <!-- footer-ul -->
+				</div> <!-- col-md-2 -->
+				<div class="col-md-2 col-6">
+					<ul class="footer-ul">
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Медиа</a></li>
+					</ul> <!-- footer-ul -->
+				</div> <!-- col-md-2 -->
+				<div class="col-md-2 col-6">
+					<ul class="footer-ul">
+						<li><a href="#">Библиотека</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul> <!-- footer-ul -->
+				</div> <!-- col-md-2 -->
+				<div class="col-md-4 text-white mytext-right res-textcenter">
+					<p>Узбекистан, г.Самарканд, Ул.Рудакий 243</p>
+					<p>Телефон: 97 800 80 80</p>
+					<p>Факс: +50 205 235 215</p>
+					<p>Email: www.myname.com</p>
+				</div>
+
+			</div> <!-- row -->
+
+		</div> <!-- container -->
+		
+
+		<div class="footer-inner">
+			<div class="container">
+				<p class="mb-0 text-white res-textcenter">© 2019 Баскетбольная Федерация Самаркандского отдела Узбекистана</p>
+			</div> <!-- container -->
+		</div> <!-- footer-inner -->
+
+	</footer> <!-- footer -->
+
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="libs/bootstrap/js/popper.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="js/smoothscroll.min.js"></script>
+	<script src="libs/swiper-slider/swiper.min.js"></script>
+	<script src="libs/unite-gallery/ug-theme-tiles.js"></script>
+	<script src="libs/unite-gallery/unitegallery.min.js"></script>
+	<script src="libs/touch-sideswipe-master/touch-sideswipe.min.js"></script>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
